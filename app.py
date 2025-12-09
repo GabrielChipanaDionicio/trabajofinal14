@@ -128,8 +128,7 @@ def main():
 
     st.subheader("3. Exploratory Data Analysis (EDA)")
     plot_correlation_heatmap(df_sampled)
-    st.markdown("
-") # Add some space
+    st.markdown(" ") # Add some space
     plot_numerical_box_plots(df_sampled)
 
     st.subheader("4. Make Predictions")
