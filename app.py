@@ -111,7 +111,7 @@ def main():
     st.title("TechPulse: Machine Learning for System Anomaly Prediction")
     st.markdown("This application predicts 'Errores logeados' (logged errors) based on system metrics.")
 
-    data_path = '/content/techpulse_timeseries_data.csv'
+    data_path = 'techpulse_timeseries_data.csv'
     model_path = 'best_lgbm_model.joblib'
     sample_size = 10000 # Use the same sample size as in the notebook
 
